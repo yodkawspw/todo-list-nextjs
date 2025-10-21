@@ -24,7 +24,12 @@ Would you like to customize the import alias (`@/*` by default)? -> No
 จากนั้นจะได้โฟลเดอร์ชื่อ "todo-list" สำหรับโปรเจกต์
 
 ### 2. รันโปรเจกต์
-เปิดโปรเจกต์ใน VS Code แล้วไปที่เมนู Terminal → New Terminal แล้วพิมพ์คำสั่งเพื่อเริ่มเซิร์ฟเวอร์
+เปิดโปรเจกต์ใน VS Code แล้วไปที่เมนู Terminal → New Terminal พิมพ์คำสั่งสำหรับการรันโปรเจกต์
+
+```bash
+npm install
+```
+เพื่อติดตั้ง package เช่น next จากนั้นพิมพ์คำสั่งเพื่อเริ่มเซิร์ฟเวอร์
 
 ```bash
 npm run dev
